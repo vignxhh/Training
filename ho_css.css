@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top{
+    width: 100%;
+    background-color: black;
+}
+.top ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 4rem;
+    color: white;
+    margin: 0px 22px;
+}
+.top a{
+    color: white;
+}
+.top li span{
+    color: green;
+}
+
+.top button{
+    background-color: rgb(79, 153, 6);
+    color: white;
+    padding: 6px 15px 6px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+}
+
+.navv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.navv ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    margin-left: 55px;
+}
+.navv li{
+    margin: 4px 8px 4px 8px;
+}
+
+.navv .right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navv .right ul{
+    margin: 0px 57px 0px 0px;
+}
+.navv img{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+ .navv ul li a{
+    color: white;
+ }
+
+.row2{
+    margin: 20px 57px 20px 55px; 
+}
+
+ .row2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ nav{
+    background-color: rgb(52, 189, 189);
+ }
+ nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 220px 0px 220px;
+    padding: 15px 0px 15px 0px;
+ }
+nav ul li:hover{
+    display: flex;
+    justify-content: center;
+    padding: 9px 9px 9px 9px;
+    border-radius: 5px;
+    background-color: black;
+}
+ .active{
+    display: flex;
+    justify-content: center;
+    padding: 9px 9px 9px 9px;
+    border-radius: 5px;
+    background-color: black;
+ }
+ 
+ nav a{
+    color: white;
+ }
+
+ .imgcontainer{
+    width: 100%;
+ }
+
+ .imgcontainer .centreimg img{
+    position: relative;
+    width: 100%;
+ }
+
+ .centreimg .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 79px;
+    height: 65px;
+    padding: 0px 120px;
+    background: rgb(0, 0, 0 ,0.7);
+    border-top: 10px solid  rgb(52, 189, 189);
+ }
+ .inputs input{
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+ }
+
+ .inputs select{
+    padding: 5px 90px 5px 4px;
+    border-radius: 5px;
+}
+
+.inputs button{
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    background-color: rgba(134, 124, 124, 0.911);
+    color: white;
+}
+
+.row3{
+    margin: 0px 95px;
+    position: relative;
+}
+.row3 h3 {
+    padding-bottom: 20px;
+}
+
+.inrow3{
+    display: flex;
+    gap: 70px;
+}
+.inrow3 img{
+    width: 100%;
+}
+.inrow3 a{
+    position: relative;
+    bottom: 27px;
+    background-color: aqua;
+    color: black;
+    float: right;
+}
+.inrow3 p , .inrow3 li{
+    font-size: smaller;
+    padding: 5px 0px 10px 0px;
+    border-bottom: 1px solid rgba(151, 148, 148, 0.925);
+}
+
+.row4{
+    display: flex;
+    gap: 50px;
+    margin: 30px 95px 30px 95px;
+}
+.row4 h3 {
+    padding-bottom: 20px;
+}
+
+.row4 .hotelfet{
+    width: 90%;
+}
+.row4 .hotelfet h4{
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid rgba(151, 148, 148, 0.925);
+}
+.row4 .hotelfet p{
+    font-size: smaller;
+}
+.row4 .clienttest .slidess p{
+    padding: 20px;
+    width: 70%;
+    background-color: #f6f6f6;
+}
+
+.lsrow{
+    background-color: #495059;
+}
+.lsinside{
+    display: flex;
+    margin: 30px 95px 30px 95px;
+    gap: 80px;
+    padding: 20px 0px 50px 0px;
+}
+.lsrow .gallery form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+.lsrow .gallery form input[type="text"],[type="email"] , .lsrow .gallery form textarea{
+    padding: 5px 5px 5px 5px;
+    width: 15rem;
+    border: 1px solid #3a3d42;
+    background-color: #868b918a;
+    color: white;
+}
+.lsrow .gallery form input::placeholder , .lsrow .gallery form textarea::placeholder{
+    color: white;
+}
+.lsrow .gallery form input[type= "submit"]{
+    background-color: #31cec3;
+    width: 25%;
+    padding: 5px 2px 5px 2px;
+    color: white;
+    margin-left: 189px;
+    border: none;
+    border-radius: 7px;
+}
+.lsrow .lsinside .flickergallery{
+    margin-right: 50px;
+    width: 90%;
+}
+.lsrow .lsinside .flickergallery .imgsection{
+    width: 150%;
+}
+.lsrow .lsinside .flickergallery .imgsection ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+.lsrow .lsinside h3{
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.867);
+    margin-bottom: 15px;
+}
+.lsrow .lsinside p{
+    color: rgba(255, 255, 255, 0.667);
+}
+.lsrow .lsinside .contact a{
+    text-decoration: underline;
+    color: #e2d5d5;
+}
+.lsrow .lsdiv{
+    border-top: 1px solid #cdcdcd;
+    padding: 20px 0px 20px 0px;
+    margin: 30px 95px 0px 95px;
+}
+
+.lsrow .lsdiv h5{
+    color: #e2d5d5;
+}
