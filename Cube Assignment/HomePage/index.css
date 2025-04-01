@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+.discount{
+    text-align: center;
+    background-color: #302a2a;
+    color: rgba(255, 255, 255, 0.699);
+    padding: 5px;
+}
+
+li,a,button{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links, li, a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: blueviolet;
+}
+header .search a img{
+    position: absolute;
+    margin: 6.5px 0px 0px -30px;
+}
+header .search a button{
+    padding: 8px 27px;
+    /* background-color: goldenrod; */
+    background-image: linear-gradient(to right,rgba(194, 158, 69),rgba(235, 173, 15));
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+}
+header .search a button:hover{
+    transition: all 0.3s ease-in-out 0s;
+    background-image: linear-gradient(to left,rgb(235, 173, 15), rgb(194, 158, 69));
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-image: linear-gradient(180deg,white, rgb(192, 190, 190));
+}
+table td{
+    background-color: #D8F0DA;
+    position: relative;
+    opacity: 0.97;
+    background: transparent;
+}
+.section1 table td table{
+    padding: 0px 80px 20px 20px;
+}
+.section1 table td table td{
+    font-size: 2.5rem;
+}
+.section1 tr .img1{
+    position: absolute;
+    z-index: -1;
+}
+.section1 tr .img2{
+    position: relative;
+    z-index: 0;
+}
+
+.section1 .bar{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 1.7rem;
+    font-weight: 100;
+    text-align: center;
+    border: 1px solid #c29e45;
+    padding: 7px 90px 7px 90px;
+    border-radius: 15px;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px;
+    background-image: linear-gradient(180deg,rgb(192, 190, 190),white);
+}
+.section2 table{
+    margin-top: 70px;
+}
+.section2 table tr{
+    width: 60%;
+}
+.section2 table tr img{
+    padding: 0px 0px 0px 0px;
+    width: 90%;
+}
+.section2 table .s2righttable .big{
+    font-size: xx-large;
+    padding: 0px 0px 0px 0px;
+}
+.section2 table .s2righttable td{
+    font-size: x-large;
+    padding: 0px 0px 0px 0px;
+}
+.section2 table .s2righttable button{
+ font-size: large;
+}
+.section2 table .s2righttable tr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    justify-content: space-around;
+}
+
+.section2 table .s2righttable button{
+    padding: 9px 27px 9px 17px;
+    background-image: linear-gradient(to right,rgb(226, 187, 87),rgb(255, 186, 13));
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+}
